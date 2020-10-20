@@ -8,7 +8,7 @@ import styles from "../styles/LandingStyles";
 const Landing = (props) => {
   const { classes } = props;
   return (
-    <Container maxWidth="lg" style={{ background: "#111111", height: "100vh" }}>
+    <Container maxWidth="lg" className={classes.container}>
       <Grid container className={classes.GridContainer}>
         <Grid item xs={12} md={6}>
           <img
@@ -36,11 +36,7 @@ const Landing = (props) => {
               <Button
                 variant="contained"
                 color="primary"
-                style={{
-                  background: "#ca1a27",
-                  fontFamily: "OperatorSSmBookRegular",
-                  fontSize: "1.15em",
-                }}
+                className={classes.loginButton}
               >
                 L O G I N
               </Button>

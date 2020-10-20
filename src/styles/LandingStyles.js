@@ -20,4 +20,13 @@ export default {
   gridText: {
     color: "white",
   },
+  container: {
+    background: "#111111",
+    height: "100vh",
+  },
+  loginButton: {
+    background: "#ca1a27",
+    fontFamily: "OperatorSSmBookRegular",
+    fontSize: "1.15em",
+  },
 };

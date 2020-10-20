@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "GoogleSansRG";
+  src: url("/assets/fonts/GoogleSansDisplayRegular.ttf");
+}
+
+@font-face {
+  font-family: "GoogleSansMD";
+  src: url("/assets/fonts/GoogleSansDisplayMedium.ttf");
+}
+
+@font-face {
+  font-family: "GoogleSansBD";
+  src: url("/assets/fonts/GoogleSansDisplayBold.ttf");
+}
+
+@font-face {
+  font-family: "OperatorSSmBlackRegular";
+  src: url("/assets/fonts/Operator SSm Black Regular.otf");
+}
+
+@font-face {
+  font-family: "OperatorSSmBoldRegular";
+  src: url("/assets/fonts/Operator SSm Bold Regular.otf");
+}
+
+@font-face {
+  font-family: "OperatorSSmBookRegular";
+  src: url("/assets/fonts/Operator SSm Book Regular.otf");
+}
+
+@font-face {
+  font-family: "OperatorSSmLightRegular";
+  src: url("/assets/fonts/Operator SSm Light Regular.otf");
+}
+
+@font-face {
+  font-family: "OperatorSSmMediumRegular";
+  src: url("/assets/fonts/Operator SSm Medium Regular.otf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "OperatorSSmMediumRegular";
+}
+
+p,
+label {
+  font-family: "OperatorSSmMediumRegular";
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "OperatorSSmMediumRegular";
+  background-color: #111111 !important;
+}
